@@ -1,0 +1,232 @@
+/* первый div в body */
+.container{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+/* меню слева */
+.menu{
+    width: 200px;
+    height: 700px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 7px;
+    position: relative;
+    float: left;
+}
+/* стилизация кнопок в левом меню */
+#rectangle{
+    width: 50px;
+    height: 30px;
+    background-color:darkgray;
+    border-radius: 5px;
+    top: 20px;
+    left: 10px;
+    position: relative;
+    border: none;
+}
+#img-rect{
+    width: 50px;
+}
+#rectangle:hover{
+    background-color: chartreuse;
+}
+
+#romb{
+    width: 50px;
+    height: 30px;
+    background-color: darkgray;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    position: relative;
+    border: none;
+}
+#img-rhombs{
+    width: 50px;
+}
+#romb:hover{
+    background-color: chartreuse;
+}
+
+#oval{
+    width: 50px;
+    height: 30px;
+    background-color: darkgray;
+    border-radius: 5px;
+    top: 20px;
+    left: 25px;
+    position: relative;
+    border: none;
+}
+#img-oval{
+    width: 50px;
+}
+#oval:hover{
+    background-color: chartreuse;
+}
+
+#hor_line{
+    background-color: white;
+    top: 75px;
+    left: 14px;
+    position: absolute;
+    border: none;
+    border-radius: 4px;
+}
+#img-hor{
+    width: 45px;
+}
+#hor_line:hover{
+    background-color: rgb(19, 243, 11);
+}
+
+#ver_line{
+    background-color: white;
+    top: 75px;
+    left: 72px;
+    border: none;
+    position: absolute;
+    border-radius: 4px;
+}
+#img-vert{
+    width: 45px;
+}
+#ver_line:hover{
+    background-color: rgb(19, 243, 11);
+}
+/* кнопка очистить в левом меню */
+.clear_all{
+    position: absolute;
+    top: 75px;
+    left: 130px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+#img_clr{
+    width: 45px;
+}
+.clear_all:hover{
+    background-color: rgb(19, 243, 11);
+}
+/* главное поле */
+.field{
+    width: 1680px;
+    height: 1000px;
+    background-color:rgb(65, 63, 63);
+    left: 10px;
+    border-radius: 5px;
+    float:right;
+    position: relative;
+}
+/* стилизация динамического прямоугольника */
+.recs{
+    width: 130px;
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    top: 20px;
+    left: 10px;
+    position: relative;
+    border: none;
+    text-align: center;
+    font: bold italic large serif;
+}
+.recs:hover{
+    background-color: rgb(232, 245, 53);
+}
+/* стилизация динамического ромба */
+.roms{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    top: 25px;
+    left: 40px;
+    position: relative;
+    border: none;
+    text-align: center;
+    font: bold italic large serif;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.roms:hover{
+    background-color: rgb(232, 245, 53);
+}
+/* стилизация динамического овала */
+.ovals{
+    width: 80px; 
+    height: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 100px/50px;
+    top: 20px;
+    left: 40px;
+    position: relative;
+    border: none;
+    text-align: center;
+    font: bold italic large serif;
+}
+.ovals:hover{
+    background-color: rgb(232, 245, 53);
+}
+/* стилизация динамической линии горизонт */
+.horizont{
+    width: 60px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 75px;
+    left: 14px;
+    position: relative;
+    border: none;
+    text-align: center;
+}
+.horizont:hover{
+    background-color: rgb(232, 245, 53);
+}
+/* стилизация динамической линии вертикаль */
+.vertical{
+    width: 4px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    top: 75px;
+    left: 14px;
+    position: relative;
+    border: none;
+}
+.vertical:hover{
+    background-color: rgb(232, 245, 53);
+}
+/* стилизация индикатора */
+.num{
+    position: relative;
+    left: 10px;
+    top: 4px;
+    color: #ffffff;
+}
+
+/* стилизация текстового поля в меню */
+#textAr{
+    position: relative;
+    top: 140px;
+    left: 10px;
+    width: 175px;
+    height: 150px;
+    border: none;
+    border-radius: 7px;
+    resize: none;
+    background-color: aliceblue;
+}
+
+img{
+    width: 20px;
+}
